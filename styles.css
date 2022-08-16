@@ -1,0 +1,222 @@
+@font-face {
+  font-family: "ptserif";
+  src: url(ptserif.ttf);
+}
+
+@font-face {
+  font-family: "poppins";
+  src: url(poppins.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+header h1 {
+  width: 278px;
+  height: 47px;
+  font-family: "ptserif";
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 48px;
+  color: black;
+  margin-top: 110px;
+  margin-right: 215px;
+}
+
+header .who {
+  width: 117px;
+  height: 27px;
+  font-family: "poppins";
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: black;
+  margin-top: 110px;
+  margin-bottom: 10px;
+}
+
+header .text {
+  width: 439px;
+  height: 87px;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 27px;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  height: 1250px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.photos1-3 {
+  display: flex;
+}
+
+.photo1 img {
+  width: 238px;
+  height: 341px;
+}
+
+.name1 {
+  font-family: "poppins";
+  width: 117px;
+  height: 27px;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 27px;
+}
+
+.role1 {
+  font-family: "ptserif";
+  width: 102px;
+  height: 16px;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 16px;
+  text-transform: uppercase;
+  transform: rotate(90deg);
+}
+
+.photo2 img {
+  width: 238px;
+  height: 347px;
+}
+
+.name2 {
+  font-family: "poppins";
+  width: 128px;
+  height: 27px;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 27px;
+}
+
+.role2 {
+  font-family: "ptserif";
+  width: 85px;
+  height: 16px;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 16px;
+  text-transform: uppercase;
+  transform: rotate(90deg);
+}
+
+.photo3 img {
+  width: 238px;
+  height: 341px;
+}
+
+.name3 {
+  font-family: "poppins";
+  width: 70px;
+  height: 27px;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 27px;
+}
+
+.role3 {
+  font-family: "ptserif";
+  width: 65px;
+  height: 16px;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 16px;
+  text-transform: uppercase;
+  transform: rotate(90deg);
+}
+
+.photos4-6 {
+  display: flex;
+}
+
+.photo4 img {
+  width: 237px;
+  height: 341px;
+}
+
+.name4 {
+  font-family: "poppins";
+  width: 86px;
+  height: 27px;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 27px;
+}
+
+.role4 {
+  font-family: "ptserif";
+  width: 77px;
+  height: 16px;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 16px;
+  text-transform: uppercase;
+  transform: rotate(90deg);
+}
+
+.photo5 img {
+  width: 238px;
+  height: 341px;
+}
+
+.name5 {
+  font-family: "poppins";
+  width: 124px;
+  height: 27px;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 27px;
+}
+
+.role5 {
+  font-family: "ptserif";
+  width: 68px;
+  height: 16px;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 16px;
+  text-transform: uppercase;
+  transform: rotate(90deg);
+}
+
+.photo6 img {
+  width: 237px;
+  height: 341px;
+}
+
+.name6 {
+  font-family: "poppins";
+  width: 92px;
+  height: 27px;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 27px;
+}
+
+.role6 {
+  font-family: "ptserif";
+  width: 76px;
+  height: 16px;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 16px;
+  text-transform: uppercase;
+  transform: rotate(90deg);
+}

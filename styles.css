@@ -65,11 +65,14 @@ main {
 
 .photos1-3 {
   display: flex;
+  height: 500px;
 }
 
 .photo1 img {
   width: 238px;
   height: 341px;
+  margin-right: 93px;
+  /* float: left; */
 }
 
 .name1 {
@@ -79,6 +82,7 @@ main {
   font-weight: 600;
   font-size: 1.125rem;
   line-height: 27px;
+  margin-top: 15px;
 }
 
 .role1 {
@@ -92,9 +96,14 @@ main {
   transform: rotate(90deg);
 }
 
+.photo2 {
+  align-self: flex-end;
+}
+
 .photo2 img {
   width: 238px;
   height: 347px;
+  margin-right: 92px;
 }
 
 .name2 {
@@ -104,6 +113,7 @@ main {
   font-weight: 600;
   font-size: 1.125rem;
   line-height: 27px;
+  margin-top: 15px;
 }
 
 .role2 {
@@ -120,6 +130,7 @@ main {
 .photo3 img {
   width: 238px;
   height: 341px;
+  margin-right: 10px;
 }
 
 .name3 {
@@ -129,6 +140,7 @@ main {
   font-weight: 600;
   font-size: 1.125rem;
   line-height: 27px;
+  margin-top: 15px;
 }
 
 .role3 {
@@ -144,11 +156,13 @@ main {
 
 .photos4-6 {
   display: flex;
+  height: 500px;
 }
 
 .photo4 img {
   width: 237px;
   height: 341px;
+  margin-right: 93px;
 }
 
 .name4 {
@@ -158,6 +172,7 @@ main {
   font-weight: 600;
   font-size: 1.125rem;
   line-height: 27px;
+  margin-top: 15px;
 }
 
 .role4 {
@@ -171,9 +186,14 @@ main {
   transform: rotate(90deg);
 }
 
+.photo5 {
+  align-self: flex-end;
+}
+
 .photo5 img {
   width: 238px;
   height: 341px;
+  margin-right: 93px;
 }
 
 .name5 {
@@ -183,6 +203,7 @@ main {
   font-weight: 600;
   font-size: 1.125rem;
   line-height: 27px;
+  margin-top: 15px;
 }
 
 .role5 {
@@ -199,6 +220,7 @@ main {
 .photo6 img {
   width: 237px;
   height: 341px;
+  margin-right: 10px;
 }
 
 .name6 {
@@ -208,6 +230,7 @@ main {
   font-weight: 600;
   font-size: 1.125rem;
   line-height: 27px;
+  margin-top: 15px;
 }
 
 .role6 {
